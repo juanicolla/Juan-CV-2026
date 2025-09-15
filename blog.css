@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #57768b;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7cc3f3; 
+    color: white;
+    border-radius: 0px;
+}
+
+.info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #57768b;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+}
+
+.links-container{
+    display: flex;
+  gap: 15px; 
+  margin: 20px; 
+}
+
+.links-button {
+    background-color: #033a5e;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 5px 5px #2e3e47;
+}
+
+.info-projects{
+    font-family: 'Roboto', sans-serif;
+    background-color: #57768b;
+    height: 200vh;
+}

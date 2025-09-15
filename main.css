@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7cc3f3; 
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.social h4 {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+}
+
+.social ul li {
+    margin-left: 35px; 
+}
+
+.social ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #57768b;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-image {
+    max-width: 20%;  
+    height: auto;
+    object-fit: contain;
+    border-radius: 25px;
+    box-shadow:10px 5px 5px #2e3e47;
+}
+
+.hero h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    color: white;
+}
+
+.hero a.cv-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #7cc3f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow:10px 5px 5px #2e3e47;
+}
+
+.hero a.cv-button:hover {
+    background-color: #2ca5f5;
+}
+
+.about-me-button {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    background-color: #7cc3f3;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow:10px 5px 5px #2e3e47;
+}
+
+.about-me-button:hover {
+    background-color: #2ca5f5;
+}
