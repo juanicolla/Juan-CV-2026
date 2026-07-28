@@ -1,39 +1,218 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Blog</title>
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <title>Juan Collajovsky | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <h1>Blog de Juan Collajovsky</h1>
-        </div>
-        <nav class="social">
-            <h4> Mis redes sociales:</h4>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-            <ul>
-                <li><a href="https://www.instagram.com/juani.colla/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://x.com/juancollajovsky"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://github.com/juanicolla"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/juancollajovsky/"><i class="fa-brands fa-linkedin"></i></a></li>
+
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <h2 class="logo">Juan</h2>
+
+            <ul class="nav-links">
+
+                <li><a href="#inicio">Inicio</a></li>
+
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+
+                <li><a href="#">Tecnologías</a></li>
+
+                <li><a href="#">Proyectos</a></li>
+
+                <li><a href="#">Contacto</a></li>
+
             </ul>
+
         </nav>
-    </header>
-    
+
+    </div>
+
+</header>
+
+<main>
+
     <section class="hero">
-        <div> <a href="perfil.html" target="_blank" class="about-me-button">Sobre mí</a> </div>
-        
-        <img src="imagenes\foto.header.jpg.jpeg" alt="Imagen de cabecera" class="header-image">
-        
-        <h2>Conocé mi CV</h2>
-        
-        <a href="imagenes\foto.CVjpg.jpg" target="_blank" class="cv-button">MI CV</a>
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="badge">
+                    🚀 Disponible para nuevos proyectos
+                </span>
+
+                <h1>
+                    Hola, soy <br>
+                    <span>Juan Collajovsky</span>
+                </h1>
+
+                <h2>
+                    Desarrollador Web · Estudiante de Lic. en Sistemas
+                </h2>
+
+                <p>
+
+                    Me gusta desarrollar aplicaciones,
+                    aprender nuevas tecnologías y convertir ideas
+                    en proyectos reales.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#proyectos" class="btn-primary">
+                        Ver proyectos
+                    </a>
+
+                    <a href="assets\images\cv.jpg" class="btn-secondary">
+                        Descargar CV
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <div class="image-circle">
+
+                    <img src="assets\images\foto.header.jpg.jpeg" alt="Juan">
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
-    
-    <script src="app.js"></script>
+
+    <section class="about" id="sobre-mi">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>Sobre mí</span>
+
+            <h2>Te cuento cositas sobre mí</h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+
+                    Soy estudiante de Licenciatura en Sistemas y desarrollador web.
+
+                </p>
+
+                <p>
+
+                    Actualmente continúo ampliando mis conocimientos en desarrollo Full Stack, Machine Learning y herramientas modernas, siempre buscando mejorar tanto mis habilidades técnicas como el diseño de mis proyectos.
+
+                </p>
+
+            </div>
+
+            <div class="about-cards">
+
+                <div class="info-card">
+
+                    <h3>🎓</h3>
+
+                    <h4>Educación</h4>
+
+                    <p>Licenciatura en Sistemas de Información</p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>💻</h3>
+
+                    <h4>¿Aptitudes?</h4>
+
+                    <p>Frontend & Backend</p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>🚀</h3>
+
+                    <h4>Objetivo</h4>
+
+                    <p>Seguir creciendo como desarrollador</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="stats">
+
+    <div class="stat">
+
+        <h2>8+</h2>
+
+        <p>Proyectos</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h2>2+</h2>
+
+        <p>Años aprendiendo</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h2>10+</h2>
+
+        <p>Tecnologías</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h2>100%</h2>
+
+        <p>Compromiso</p>
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+</main>
+
 </body>
-</html> 
+
+</html>
