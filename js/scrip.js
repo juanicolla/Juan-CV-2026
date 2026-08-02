@@ -1,7 +1,23 @@
-window.addEventListener("scroll",()=>{
+const cards = document.querySelectorAll(".stack-card");
 
-    const header=document.querySelector("header");
+window.addEventListener("scroll", () => {
 
-    header.classList.toggle("scrolled",window.scrollY>50);
+    cards.forEach((card) => {
+
+        const rect = card.getBoundingClientRect();
+
+        const progress = Math.min(
+            Math.max(
+                (window.innerHeight - rect.top) / window.innerHeight,
+                0
+            ),
+            1
+        );
+
+        const scale = 1 - progress * 0.05;
+
+        card.style.transform = `scale(${scale})`;
+
+    });
 
 });
