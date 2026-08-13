@@ -219,6 +219,8 @@ header.scrolled{
 
     background:linear-gradient(90deg, #60A5FA, #2563EB);
 
+    background-clip: text;
+
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
